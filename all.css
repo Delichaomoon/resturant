@@ -1,0 +1,212 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap');
+/* base */
+*,:before,::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Noto Sans TC' ,sans-serif;
+  width: 1049px;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+  display: block;
+}
+.container {
+  width: 1024px;
+  padding: 0 24px;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+}
+.jcc{
+  justify-content: center;
+}
+.aic{
+  align-items: center;
+}
+.jcsb{
+  justify-content: space-between;
+}
+.jce {
+  justify-content: end;
+}
+/* icon */
+.fa-utensils {
+  font-size: 16px;
+  margin: 0 6px;
+}
+.fa-square-google-plus {
+  color: #db4437;
+  font-size: 36px;
+}
+.fa-square-twitter {
+  color: #41abe1;
+  font-size: 36px;
+}
+.fa-square-facebook {
+  color: #3a5795;
+  font-size: 36px;
+}
+/* header */
+.header {
+  background-image: url(./assets/header_desktop@2x.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 420px;
+  color:#fff;
+}
+.nav {
+  background-color: rgba(0, 0, 0, 75%);
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.logo {
+  background-image: url(./assets/logo_w@svg.svg);
+  text-indent: 101%;
+  overflow:hidden;
+  white-space: nowrap;
+  width: 120px;
+  height: 24px;
+  background-repeat: no-repeat;
+}
+.logo:hover {
+  opacity: .7;
+}
+.menu{
+  display: flex;
+}
+.menu li {
+  margin-left: 30px;
+}
+.menu a {
+  color: #fff;
+  border-bottom: 3px solid transparent;
+}
+.menu a:hover {
+  border-bottom: 3px solid #fff;
+}
+.header-txt {
+  background-color: rgba(0, 0, 0, .35);
+  width: 460px;
+  text-align: center;
+  padding: 20px 42px 26px 20px;
+  margin: 67px 294px 145px 295px;
+}
+.header-txt h2 {
+  font-size: 36px;
+  margin-bottom: 16px;
+}
+.header-txt p {
+  margin-bottom: 4px;
+}
+/* main */
+.secret {
+  color: #3d1101;
+  background: #efe9e7;
+  padding: 50px 62px;
+}
+.secret-txt {
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  margin-bottom: 31px;
+  z-index: 1;
+  background-color: #efe9e7;
+  position: relative;
+  z-index: 10;
+    
+}
+/* .secret-bd {
+  position: relative;
+} */
+.secret-txt::before{
+  position: absolute;
+  top:50%;
+  left:25%;
+  content:"";
+  width: 461px;
+  height: 1px;
+  border: 1px solid #979797;
+  z-index: 2;
+}
+
+
+/* footer */
+footer {
+  background-color: #efe9e7;
+  color: #3d1101;
+  padding: 50px 0;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.footer h3 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.about {
+  width: 29%;
+  margin-right: 21px;
+}
+.contact {
+  width: 33%;
+}
+.f-logo li {
+  margin-top: 22px;
+  padding-left: 11px;
+}
+.f-logo img {
+  width: 245px;
+  height: 49px;
+}
+.f-logo a:hover {
+  background: #fff;
+  color: #3d1101;
+}
