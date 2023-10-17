@@ -51,9 +51,14 @@ body {
   font-family: 'Noto Sans TC' ,sans-serif;
   width: 1049px;
   margin: 0 auto;
+  line-height: 1.2;
 }
 a{
   text-decoration: none;
+  display: block;
+}
+img {
+  max-width: 100%;
   display: block;
 }
 .container {
@@ -149,7 +154,7 @@ a{
 .secret {
   color: #3d1101;
   background: #efe9e7;
-  padding: 50px 62px;
+  padding: 50px 0;
 }
 .secret-txt {
   font-size: 20px;
@@ -174,6 +179,137 @@ a{
   height: 1px;
   border: 1px solid #979797;
   z-index: 2;
+}
+.secret li {
+
+}
+.secret li:nth-child(2) {
+  margin: 0 60px;
+}
+.secret li img {
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.secret h3 {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 11px;
+}
+.chef {
+  background-color: #3d1101;
+  color:#fff;
+}
+.chef-txt {
+  width: 410px;
+  margin: auto 25px;
+}
+.chef-txt h3 {
+  font-size: 20px;
+  line-height: 32px;
+}
+.chef-txt p{
+  margin-bottom: 16px;
+}
+.feedback {
+  color: #3d1101;
+  background: #efe9e7;
+  padding: 50px 0;
+}
+.feedback h3 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+.feedback li {
+  width: 33%;
+}
+.feedback li:nth-child(2){
+  margin: 0 20px;
+}
+.feedback li div>p {
+  font-size: 18px;
+  margin-left: 13px;
+  
+}
+.feedback img {
+  border-radius: 50%;
+  width: 67px;
+  height: 67px;
+}
+.feedback li>p{
+  width: 220px;
+  margin-left: auto;
+  line-height: 24px;
+}
+.feedback li>p:last-child{
+  text-align: right;
+}
+.locate {
+  background-color: #f6f4f3;
+  color: #3d1101; 
+  padding: 50px 0px;
+}
+.locate h3 {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 38px;
+  line-height: 1.33;
+}
+.locate img {
+  width: 460px;
+  height: 386px;
+}
+.form {
+  margin-left: 20px;
+  width: 100%;
+}
+.form label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+#name,
+#phone,
+#mail,
+#person {
+  display: block;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 14px;
+  margin-bottom: 12px;
+} 
+.radio-group {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+}
+.radio-group label {
+  margin-right: 36px;
+}
+.form fieldset:last-of-type {
+  text-align: right;
+  margin-top: 60px;
+}
+.btn {
+font-size: 14px;
+border: 0;
+padding: 6px 20px;
+border-radius: 5px;
+cursor: pointer;
+}
+.btn:hover {
+  background-color: #000;
+}
+.cancel {
+  color: #fff;
+  background: #a09e9e;
+  margin-right: 11px;
+}
+.submit {
+  color: #fff;
+  background: #f56c23;
 }
 
 

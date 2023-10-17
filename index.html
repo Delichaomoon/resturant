@@ -28,30 +28,94 @@
     </div>
   </header>
   <main class="content">
-    <div class="secret">
+    <section class="secret">
       <div class="secret-bd">
         <p class="secret-txt">客人總是在詢問 <br/>
           這麼好吃的秘訣是什麼
         </p>
       </div>
-      <ul class="flex">
+      <ul class="flex container">
         <li>
           <img src="./assets/feature_1.png" alt="f1">
-          <p>台灣本土蔬菜</p>
+          <h3>台灣本土蔬菜</h3>
           <p>In hac habitasse platea dictumst. Vivamus adipiscing fermentum quam volutpat aliquam. Integer et elit eget elit facilisis tristique. Nam vel iaculis mauris.</p>
         </li>
         <li>
           <img src="./assets/feature_2.png" alt="f2">
-          <p>專業米其林廚師</p>
+          <h3>專業米其林廚師</h3>
           <p>Sed ullamcorper tellus erat, non ultrices sem tincidunt euismod. Fusce rhoncus porttitor velit, eu bibendum nibh aliquet vel. Fusce lorem leo, vehicula at nibh quis, facilisis accumsan turpis.</p>
         </li>
         <li>
           <img src="./assets/feature_3.png" alt="f3">
-          <p>對於專業不能退讓</p>
+          <h3>對於專業不能退讓</h3>
           <p>Fusce rhoncus porttitor velit, eu bibendum nibh aliquet vel. Fusce lorem leo, vehicula at nibh quis, facilisis accumsan turpis.</p>
         </li>
       </ul>
-    </div>
+    </section>
+    <section class="chef">
+      <div class="container flex">
+        <img src="./assets/main_chef_brown.png" alt="chef">
+        <div class="chef-txt">
+          <h3>今日主廚：帕金森、梅在帕</h3>
+          <p>Tody Chef: Plum in Shock</p>
+          <p>Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum sed varius at, adipiscing vitae est. Sed nec felis pellentesque, lacinia dui sed, ultricies sapien. Pellentesque orci lectus, consectetur vel posuere posuere, rutrum eu ipsum. Aliquam eget odio sed ligula iaculis consequat at eget orci. Mauris molestie sit amet metus mattis varius. Donec sit amet ligula eget nisi sodales egestas. Aliquam interdum dolor aliquet dolor sollicitudin fermentum. Donec congue lorem a molestie bibendum.</p>
+        </div>
+      </div>
+    </section>
+    <section class="feedback">
+      <h3>聽聽別人的感想</h3>
+      <ul class="flex container">
+        <li>
+          <div class="flex aic">
+            <img src="./assets/avatar_1.png" alt="a1">
+            <p>高雄一口吃</p>
+          </div>
+          <p>自從吃了這家餐廳以後，我口水連續流了一個多月都沒停，下次不要再被我遇到，不然我一定連他們桌子都啃下去。</p>
+          <p> -- 產品經理</p>
+        </li>
+        <li>
+          <div class="flex aic">
+            <img src="./assets/avatar_2.png" alt="av2">
+            <p>廟口小霸王</p>
+          </div>
+          <p>自從吃了這家餐廳以後，我口水連續流了一個多月都沒停，下次不要再被我遇到，不然我一定連他們桌子都啃下去。</p>
+          <p> -- 金身道士</p>
+        </li>
+        <li>
+          <div class="flex aic">
+            <img src="./assets/avatar_3.png" alt="av3">
+            <p>春天也來了</p>
+          </div>
+          <p>自從吃了這家餐廳以後，我口水連續流了一個多月都沒停，下次不要再被我遇到，不然我一定連他們桌子都啃下去。</p>
+          <p> -- 美麗萬分</p>
+        </li>
+      </ul>
+    </section>
+    <section class="locate">
+      <h3>我們的位置不太夠坐 <br/>
+        要不要先定位呢？
+      </h3>
+      <div class="container flex">
+        <img src="./assets/Map.png" alt="map">
+        <form action="" class="form">
+          <fieldset><label for="name">姓名</label><input type="text" id="name" name="name" placeholder="六角講師吃尾牙"></fieldset>
+          <fieldset><label for="phone">電話</label><input type="tel" id="phone" name="phone" placeholder="02-1234567"></fieldset>
+          <fieldset><label for="mail">信箱</label><input type="email" id="mail" name="mail" placeholder="test@gmail.com"></fieldset>
+          <fieldset><label for="person">人數</label><input type="number" id="person" name="person"></fieldset>
+          <fieldset>
+            <label for="">是否需要素食:</label>
+            <div class="radio-group">
+              <label for="yes">是<input type="radio" id="yes" name="veg" value="yes"></label>
+              <label for="no">否<input type="radio" id="no" name="veg" value="no"></label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <button type="button" class="btn cancel">取消</button>
+            <button type="button" class="btn submit">送出</button>
+          </fieldset>
+        </form>
+      </div>
+    </section>
   </main>
   <footer>
     <div class="footer container">
