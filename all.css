@@ -173,7 +173,7 @@ img {
 .secret-txt::before{
   position: absolute;
   top:50%;
-  left:25%;
+  left:27.5%;
   content:"";
   width: 461px;
   height: 1px;
@@ -181,7 +181,7 @@ img {
   z-index: 2;
 }
 .secret li {
-
+  width: 33%;
 }
 .secret li:nth-child(2) {
   margin: 0 60px;
